@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
             {
                     if(random==Integer.parseInt(editText.text.toString())){
                         texts.add("You guessed ${editText.text.toString()}\n Correct Guess! You win.")
-                        this.recreate()
                     }
                     else {
                         texts.add("You guessed ${editText.text.toString()}\n You have $guess guesses left")
