@@ -24,8 +24,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvMain"
-        android:layout_width="511dp"
-        android:layout_height="221dp"
+        android:layout_width="385dp"
+        android:layout_height="251dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,19 +45,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:maxLines="1"
             android:hint="Enter a number"
-            android:textSize="20dp"
             android:inputType="number"
+            android:maxLines="1"
             android:minHeight="48dp"
-            android:text="" />
+            android:text=""
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button"
-            android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guess" />
+            android:text="Guess"
+            android:textSize="20dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
