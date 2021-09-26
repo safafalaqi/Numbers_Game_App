@@ -84,8 +84,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    }
-
-
-               // Toast.makeText(this, "Please enter a number ", Toast.LENGTH_SHORT).show()
-
+}
