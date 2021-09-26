@@ -55,7 +55,8 @@ class MainActivity : AppCompatActivity() {
                         myRv.layoutManager = LinearLayoutManager(this)
                         guess--
                     }
-
+                //to make the recycler view always showing the bottom in the list
+                myRv.scrollToPosition(texts.size - 1)
             }
         }
 
