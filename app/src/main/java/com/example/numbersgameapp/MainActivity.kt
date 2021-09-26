@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                         myRv.layoutManager = LinearLayoutManager(this)
                         //set guess to 0 so the dialog box appear and the user will choose to play or not
                         guess=0
+                        showAlertDialog()
                     } else {
                         texts.add("You guessed ${editText.text.toString()}\n You have $guess guesses left")
                         //then clear the Edit Text field.
